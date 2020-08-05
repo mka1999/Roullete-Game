@@ -1,0 +1,56 @@
+body
+{
+ background-image: url(image/font-img.jpg);
+ background-size: 100%;
+ color: white;
+}
+#gains
+{
+    
+    color:white;
+}
+button.go
+{
+    background-color: teal;
+    text-align: center;
+    width:75px ;
+    height:50px ;
+    font-size: 30px;
+    font-style: oblique;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    
+}
+select[name="parite"]
+{
+    background-color: teal;
+}
+input[name="mise"]
+{
+    background-color: teal;
+    text-align: right;
+    margin-left: 0px;
+    width:100px ;
+}
+.gauche{
+    display: inline-block;
+    float: left;
+}
+.droite{
+    display: inline-block;
+    float: right;
+}
+select[name="parite"]
+{
+    margin-left: 130px;
+    width:100px ;
+}
+.lien{
+    text-align: center;
+    font-size: 50px;
+}
+input[name=mises]{
+    background-color: teal;
+    text-align: right;
+    margin-left: 30px;
+    width:100px ;
+}
