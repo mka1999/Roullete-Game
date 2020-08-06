@@ -44,7 +44,7 @@ function VrfAffichage(){
     document.getElementById("pertes").innerHTML = ("Vos avez perdu : "+pertes+"$.");
 }
 go.onclick = function(){
-    if(document.querySelector("input[name=mise]").value == ""){
+    if(document.querySelector("input[name=mise]").value == ""||document.querySelector("input[name=mises]").value== ""){
         alert ("Veuillez choisir un nombre.");
         return 0;
     }
